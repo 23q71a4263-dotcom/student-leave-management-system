@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leave Request - Student Leave Management System</title>
+</head>
+<body>
+    <h1>Request Leave</h1>
+    <form>
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" name="studentName" required><br><br>
+
+        <label for="leaveType">Leave Type:</label>
+        <select id="leaveType" name="leaveType" required>
+            <option value="sick">Sick Leave</option>
+            <option value="casual">Casual Leave</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="fromDate">From Date:</label>
+        <input type="date" id="fromDate" name="fromDate" required><br><br>
+
+        <label for="toDate">To Date:</label>
+        <input type="date" id="toDate" name="toDate" required><br><br>
+
+        <label for="reason">Reason:</label>
+        <textarea id="reason" name="reason" required></textarea><br><br>
+
+        <button type="submit">Submit Request</button>
+    </form>
+    <p><a href="index.html">Back to Home</a></p>
+</body>
+</html>
